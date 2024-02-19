@@ -36,7 +36,7 @@ Route::get('docs', [Controller::class, 'docs'])->name('docs');
     Route::get('location', [ApiController::class, 'locationIndex']);
     Route::get('location/{id}', [ApiController::class, 'getSingleLocation']);
     Route::get('/multiLocation/{id}', [ApiController::class, 'multiLocation']);
-    Route::get('/filterLocation', [ApiController::class, 'getFilterLocation']);
+    Route::get('/filterLocation', [ApiController::class, 'getFilterLocation']); 
 
     
 
